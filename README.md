@@ -15,13 +15,16 @@ Provide version controlled assumptions, design, documentation, diagrams, discuss
 MyHealthCo is a fake company with no basis on any real organization. Healthcare was chosen because
 
 1. Standards (both US and international) mandate security practices and associated cloud design considerations
-1. Healthcare encounters are common in base form and require significant amounts of complex interactions involving:
-  1. personally identifiable information
-  1. private information
-  1. financial interactions
-  1. third-party data transmissions to private industry service providers (e.g., health insurance providers, pharmacies)
-  1. third-party data transmission to public/government organizations (e.g., public health organizations, public health aid programs, government health insurance)
 1. Health practices can readily model microservices for real time interactions, extract-transform-load (ETL), big data, and network interactions across logically separated cloud accounts/services
+1. Healthcare encounters are common in base form and require significant amounts of complex interactions.
+
+### Common & Complex Interactions
+
+1. personally identifiable information
+1. private information
+1. financial interactions
+1. third-party data transmissions to private industry service providers (e.g., health insurance providers, pharmacies)
+1. third-party data transmission to public/government organizations (e.g., public health organizations, public health aid programs, government health insurance)
 
 Each experiment allows for exploring an area of interest within mocked meaningful constraints.
 
